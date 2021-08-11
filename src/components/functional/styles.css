@@ -1,0 +1,77 @@
+.cell {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgba(214, 107, 19, 0.61);
+}
+
+.null-circle {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    background-color: rgba(214, 107, 19, 0.61);
+}
+
+.dead-circle {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    background-color: darkgray;
+}
+
+.black-circle {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    background-color: black;
+}
+
+.white-circle {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #000;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.board {
+    border-radius: 5px;
+    height: 650px;
+    width: 650px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.playagain {
+    padding: 10px 15px;
+    background: gray;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 1s;
+}
+
+.title {
+    font-size: large;
+    font-weight: 100;
+    align-content: center;
+}
